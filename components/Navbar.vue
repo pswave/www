@@ -1,9 +1,9 @@
 <template>
-    <div>
+    <div class="container">
         <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="https://bulma.io">
-      <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+    <a class="navbar-item" href="">
+      <img src="../assets/pswave.png" width="150" height="50">
     </a>
 
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -14,51 +14,43 @@
   </div>
 
   <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
+    <div class="navbar-center">
       <a class="navbar-item">
         Home
       </a>
 
       <a class="navbar-item">
-        Documentation
+        Products    
       </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More
+        <a class="navbar-item">
+          Sector
         </a>
-
-        <div class="navbar-dropdown">
           <a class="navbar-item">
-            About
-          </a>
-          <a class="navbar-item">
-            Jobs
-          </a>
-          <a class="navbar-item">
-            Contact
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item">
-            Report an issue
-          </a>
-        </div>
-      </div>
+          Contact
+        </a>
     </div>
 
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
-          </a>
-          <a class="button is-light">
-            Log in
-          </a>
-        </div>
-      </div>
-    </div>
   </div>
 </nav>
         </div>
 </template>
+
+<style scoped>
+@font-face {
+    font-family: 'BreakFill';
+    src: url("/assets/break/breakRegular.ttf") format("truetype");
+}
+.navbar-item {
+    font-family: 'BreakFill';
+    outline: 0;
+}
+.navbar-center {
+    margin: auto;
+    display: flex;
+}
+.navbar {
+    height: 6rem;
+}
+
+
+</style>
