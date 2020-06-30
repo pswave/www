@@ -172,44 +172,26 @@
       </div>
     </div>
     <foot/>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5efb25c24a7c6258179b9b60/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+      (function(){
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5efb25c24a7c6258179b9b60/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+      })();
+    </script>
       <!--   Core JS Files   -->
-  <script src="/js/core/jquery.min.js" type="text/javascript"></script>
-  <script src="/js/core/popper.min.js" type="text/javascript"></script>
-  <script src="/js/core/bootstrap.min.js" type="text/javascript"></script>
-  <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-  <script src="/js/plugins/bootstrap-switch.js"></script>
-  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-  <script src="/js/plugins/nouislider.min.js" type="text/javascript"></script>
-  <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
-  <script src="/js/plugins/moment.min.js"></script>
-  <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
-  <script src="/js/plugins/bootstrap-tagsinput.js"></script>
-  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
-  <script src="/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
-  <!--	Plugin for Datetimepicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
-  <script src="/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
-  <!--  Vertical nav - dots -->
-  <!--  Photoswipe files -->
-  <script src="/js/plugins/photo_swipe/photoswipe.min.js"></script>
-  <script src="/js/plugins/photo_swipe/photoswipe-ui-default.min.js"></script>
-  <script src="/js/plugins/photo_swipe/init-gallery.js"></script>
-  <!-- Control Center for Paper Kit: parallax effects, scripts for the example pages etc -->
-  <script src="/js/paper-kit.js?v=2.3.0" type="text/javascript"></script>
-  <!--  Plugin for presentation page - isometric cards  -->
-  <script src="/js/plugins/presentation-page/main.js"></script>
+    <script src="/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="/js/core/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/js/paper-kit.js" type="text/javascript"></script>
+    <script src="/js/plugins/nouislider.min.js" type="text/javascript"></script>
+
+
   </div>
 </template>
 
