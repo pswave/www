@@ -5,15 +5,21 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'PSWave - Cut the way out',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' },
+      { hid: 'description', name: 'description', content: 'Get ready for a new future. We are a team of developers and researchers working on cutting edge products for Smart Homes and Electronic Vehicles.' },
+      { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge,chrome=1'}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+      { href: 'https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css', rel: "stylesheet"},
+      { href: 'https://fonts.googleapis.com/css?family=Montserrat:400,700,400', rel: "stylesheet"},
+    ],
+    bodyAttrs: {
+      class: 'index-page sidebar-collapse'
+    }
   },
   /*
   ** Customize the progress-bar color
@@ -23,7 +29,9 @@ export default {
   ** Global CSS
   */
   css: [
-    ],
+    { src: '~static/css/bootstrap.min.css', lang: 'css'},
+    { src: '~static/css/paper-kit.css', lang: 'css'},
+  ],
   /*
   ** Plugins to load before mounting the App
   */
@@ -39,8 +47,6 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    '@nuxtjs/bulma',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
@@ -69,5 +75,8 @@ export default {
     */
     extend (config, ctx) {
     }
-  }
+  },
+  generate: {
+    fallback: true,
+  },
 }
