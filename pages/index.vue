@@ -184,13 +184,6 @@
         s0.parentNode.insertBefore(s1,s0);
       })();
     </script>
-      <!--   Core JS Files   -->
-    <script src="/js/core/jquery.min.js" type="text/javascript"></script>
-    <script src="/js/core/popper.min.js" type="text/javascript"></script>
-    <script src="/js/core/bootstrap.min.js" type="text/javascript"></script>
-    <script src="/js/paper-kit.js" type="text/javascript"></script>
-    <script src="/js/plugins/nouislider.min.js" type="text/javascript"></script>
-
 
   </div>
 </template>

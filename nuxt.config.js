@@ -19,7 +19,14 @@ export default {
     ],
     bodyAttrs: {
       class: 'index-page sidebar-collapse'
-    }
+    },
+    script: [
+      { src: '/js/core/jquery.min.js'},
+      { src: '/js/core/popper.min.js'},
+      { src: '/js/core/bootstrap.min.js'},
+      { src: '/js/paper-kit.js'},
+      { src: '/js/plugins/nouislider.min.js'}
+    ]
   },
   /*
   ** Customize the progress-bar color
