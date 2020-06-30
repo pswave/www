@@ -103,7 +103,7 @@
           </div>
         </div>
       </div>
-      <div id="team" style="background-color: #72ddee" class="section section-dark  icon-info text-center landing-section">
+      <div id="team" style="background-color: #B2AFAB" class="section section-dark  icon-info text-center landing-section">
         <div class="container">
           <h2 class="title">Let's talk about us</h2>
           <div class="row">
