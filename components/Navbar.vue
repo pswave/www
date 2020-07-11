@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg bg-white nav-down" color-on-scroll="500">
     <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="/" rel="tooltip" title="Paper Kit 2 PRO" data-placement="bottom">
+        <a class="navbar-brand" href="/" rel="tooltip" title="PSWave Private Limited" data-placement="bottom">
           <img src="../assets/pswave.png" width="150px"/>
         </a>
         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
